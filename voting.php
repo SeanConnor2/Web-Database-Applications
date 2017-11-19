@@ -16,7 +16,7 @@ table, th, td {
 </head>
 <body>
 <?php
-include("loginBook2.php");
+include("loginVote.php");
 
 $db = login();
   if (mysqli_connect_errno()) {
